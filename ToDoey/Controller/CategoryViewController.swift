@@ -68,7 +68,7 @@ class CategoryViewController: UITableViewController {
     
     //MARK: - Add new categories
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
-        var textField = UITextField()
+    var textField = UITextField()
     let alert = UIAlertController(title: "Add New Todoey Category", message: "", preferredStyle: .alert)
     let alertAction = UIAlertAction(title: "Add Categories", style: .default) { (action) in
         
